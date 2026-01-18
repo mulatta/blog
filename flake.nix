@@ -14,6 +14,7 @@
 
       perSystem =
         {
+          pkgs,
           lib,
           self',
           system,
@@ -30,7 +31,22 @@
               packages = lib.mapAttrs' (n: lib.nameValuePair "package-${n}") self'.packages;
               devShells = lib.mapAttrs' (n: lib.nameValuePair "devShell-${n}") self'.devShells;
             in
-            { inherit (self') formatter; } // packages // devShells;
+            {
+              inherit (self') formatter;
+            }
+            // packages
+            // devShells
+            // {
+              link-check = pkgs.testers.lycheeLinkCheck {
+                site = self'.packages.blog;
+                extraConfig = {
+                  exclude_path = [
+                    ".*/tags/.*"
+                    ".*/categories/.*"
+                  ];
+                };
+              };
+            };
         };
     };
 

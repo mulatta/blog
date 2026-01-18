@@ -25,6 +25,13 @@ new slug:
     @echo '' >> site/content/post/{{slug}}/index.md
     @echo 'Created: site/content/post/{{slug}}/index.md'
 
+# Check internal links
+check: build
+    lychee --offline --no-progress \
+        --exclude-path '.*/tags/.*' \
+        --exclude-path '.*/categories/.*' \
+        result
+
 # Format code
 fmt:
     nix fmt
