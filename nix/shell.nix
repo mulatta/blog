@@ -5,9 +5,11 @@
       devShells.default = pkgs.mkShell {
         packages = with pkgs; [
           gitMinimal
+          just
+          lychee
+          miniserve
           hugo
         ];
       };
     };
-  };
 }

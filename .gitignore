@@ -1,7 +1,5 @@
-# cache
-.direnv/*
-.jj/*
+# direnv
+.direnv/
 
-# build result
-target/
+# nix build output
 result
