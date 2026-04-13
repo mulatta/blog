@@ -1,13 +1,3 @@
----
-title: "Search"
-layout: "search"
-slug: "search"
-menu:
-    main:
-        weight: -60
-        params:
-            icon: search
-outputs:
-    - html
-    - json
----
+______________________________________________________________________
+
+## title: "Search" layout: "search" slug: "search" menu: main: weight: -60 params: icon: search outputs: - html - json
