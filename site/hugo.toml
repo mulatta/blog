@@ -41,21 +41,9 @@ weight = -100
 [menu.main.params]
 icon = "home"
 
-[[menu.main]]
-identifier = "archives"
-name = "Archives"
-url = "/archives/"
-weight = 10
-[menu.main.params]
-icon = "archives"
-
-[[menu.main]]
-identifier = "search"
-name = "Search"
-url = "/search/"
-weight = 20
-[menu.main.params]
-icon = "search"
+# `archives` and `search` register themselves via the `menu:` frontmatter
+# block in their respective page files. Defining them here as well would
+# produce duplicate sidebar entries.
 
 [related]
 includeNewer = true
