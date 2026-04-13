@@ -22,7 +22,14 @@
         # Other formatters
         keep-sorted.enable = true;
         yamlfmt.enable = true;
-        mdformat.enable = true;
+        mdformat = {
+          enable = true;
+          # Hugo content carries YAML frontmatter delimited by `---`.
+          # Without this plugin mdformat rewrites the delimiter as a
+          # thematic break (`_`-run), hiding the title/date/taxonomy
+          # from Hugo and rendering pages with empty titles.
+          plugins = ps: [ ps.mdformat-frontmatter ];
+        };
         taplo.enable = true;
       };
 
