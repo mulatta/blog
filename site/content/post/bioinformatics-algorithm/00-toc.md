@@ -1,27 +1,22 @@
-______________________________________________________________________
-
+---
 title: "Bioinformatics Algorithm - Table of Contents"
 date: 2024-01-29
 categories:
-
-- Bioinformatics
-- Algorithm
-  tags:
-- Table of contents
-- Review
-
-______________________________________________________________________
+  - Bioinformatics
+  - Algorithm
+tags:
+  - Table of contents
+  - Review
+---
 
 # 목차
 
 ## Chapter 1. DNA 복제는 유전체의 어디서부터 시작되는가?
 
 ### 서론
-
 - [Introduction](../01-ch1-intro)
 
 ### 본문
-
 - [1A 단어 세기](../02-ch1-1a)
 - [1B 빈번한 단어 문제](../03-ch1-1b)
 - [1C 역상보 문제](../04-ch1-1c)
@@ -34,12 +29,10 @@ ______________________________________________________________________
 - 미스매치와 역상보의 빈번한 단어 문제
 
 ### 에필로그
-
 - 도전문제: Salmonella enterica의 DnaA box
 - 고세균에서 복제 기점 찾기
 
 ### 충전소
-
 - 빈도 배열
 - 패턴과 숫자를 서로 변환하기
 - 정렬을 사용해 빈번한 단어 찾기
