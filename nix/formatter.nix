@@ -22,6 +22,7 @@
         # Other formatters
         keep-sorted.enable = true;
         yamlfmt.enable = true;
+        mdformat.enable = true;
         taplo.enable = true;
       };
 
