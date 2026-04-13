@@ -39,7 +39,13 @@
             // {
               link-check = pkgs.testers.lycheeLinkCheck {
                 site = self'.packages.blog;
+                remap = {
+                  "https://blog.mulatta.io/" = "${self'.packages.blog}/";
+                };
                 extraConfig = {
+                  base = "https://blog.mulatta.io/";
+                  root_dir = "${self'.packages.blog}";
+                  index_files = [ "index.html" ];
                   exclude_path = [
                     ".*/tags/.*"
                     ".*/categories/.*"
