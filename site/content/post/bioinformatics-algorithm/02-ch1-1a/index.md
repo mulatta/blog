@@ -3,10 +3,11 @@ title: 1A 단어 세기
 date: 2024-01-30
 categories:
   - Bioinformatics
-  - Algorithm
 tags:
-  - Concept Note
-  - Review
+  - Book Notes
+  - Compeau & Pevzner
+  - Pattern Matching
+  - Brute Force
 math: true
 ---
 

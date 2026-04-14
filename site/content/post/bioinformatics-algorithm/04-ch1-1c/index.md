@@ -3,10 +3,11 @@ title: 1C 역상보 문제
 date: 2024-01-30
 categories:
   - Bioinformatics
-  - Algorithm
 tags:
-  - Concept Note
-  - Review
+  - Book Notes
+  - Compeau & Pevzner
+  - DNA
+  - Reverse Complement
 math: true
 ---
 

@@ -3,10 +3,11 @@ title: 1B 빈번한 단어 문제
 date: 2024-01-30
 categories:
   - Bioinformatics
-  - Algorithm
 tags:
-  - Concept Note
-  - Review
+  - Book Notes
+  - Compeau & Pevzner
+  - Pattern Matching
+  - Algorithm Analysis
 math: true
 ---
 

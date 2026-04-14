@@ -3,10 +3,11 @@ title: 1E 군집 찾기 문제
 date: 2024-02-20
 categories:
   - Bioinformatics
-  - Algorithm
 tags:
-  - Concept Note
-  - Review
+  - Book Notes
+  - Compeau & Pevzner
+  - Clump Finding
+  - Genome Analysis
 math: true
 ---
 

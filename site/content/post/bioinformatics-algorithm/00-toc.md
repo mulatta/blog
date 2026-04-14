@@ -3,10 +3,10 @@ title: Bioinformatics Algorithm - Table of Contents
 date: 2024-01-29
 categories:
   - Bioinformatics
-  - Algorithm
 tags:
-  - Table of contents
-  - Review
+  - Book Notes
+  - Compeau & Pevzner
+  - Table of Contents
 ---
 
 # 목차

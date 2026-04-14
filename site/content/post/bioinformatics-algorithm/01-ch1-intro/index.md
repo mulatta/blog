@@ -3,11 +3,10 @@ title: Chapter 1. Introduction
 date: 2024-01-29
 categories:
   - Bioinformatics
-  - Algorithm
 tags:
-  - Concept Note
-  - Introduction
-  - Review
+  - Book Notes
+  - Compeau & Pevzner
+  - DNA Replication
 ---
 
 > "DNA 복제는 유전체의 어디서부터 시작되는가?"
