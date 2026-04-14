@@ -28,7 +28,10 @@
           # Without this plugin mdformat rewrites the delimiter as a
           # thematic break (`_`-run), hiding the title/date/taxonomy
           # from Hugo and rendering pages with empty titles.
-          plugins = ps: [ ps.mdformat-frontmatter ];
+          plugins = ps: [
+            ps.mdformat-frontmatter
+            ps.mdformat-footnote
+          ];
         };
         taplo.enable = true;
       };
