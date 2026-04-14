@@ -167,6 +167,8 @@ def Complement(seq, reverse=False):
 
 ______________________________________________________________________
 
-\[^1\]: 이러한 공유결합을 [phospho-diester bond](https://en.wikipedia.org/wiki/Phosphodiester_bond)라 한다.
-\[^2\]: 일반적이지 않은 경우, chemical modificatioin이 일어난 기타 종류의 염기를 가진다. pseudo-uridine, m6A 등의 예시가 있다.
-\[^3\]: 앞선 각주 1에서 언급된 바와 같이, chemical modification이 일어난 염기나, 기타 DNA/RNA의 구조적 특징에 의해 새로운 수소 결합의 종류가 존재한다.([Non-canonical base-pairing](https://en.wikipedia.org/wiki/Non-canonical_base_pairing))
+[^1]: 이러한 공유결합을 [phospho-diester bond](https://en.wikipedia.org/wiki/Phosphodiester_bond)라 한다.
+
+[^2]: 일반적이지 않은 경우, chemical modificatioin이 일어난 기타 종류의 염기를 가진다. pseudo-uridine, m6A 등의 예시가 있다.
+
+[^3]: 앞선 각주 1에서 언급된 바와 같이, chemical modification이 일어난 염기나, 기타 DNA/RNA의 구조적 특징에 의해 새로운 수소 결합의 종류가 존재한다.([Non-canonical base-pairing](https://en.wikipedia.org/wiki/Non-canonical_base_pairing))

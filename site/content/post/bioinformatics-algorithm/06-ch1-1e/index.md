@@ -149,6 +149,8 @@ def myFindClumps(genome, k, L, t):
 
 ______________________________________________________________________
 
-\[^1\]: 이전 PatternCount(text, pattern)에서 입력 text가 substring이 되므로, O(Lk)가 됨
-\[^2\]: python에서 집합은 hash 구조로 이루어져 있으며, 평균적으로 O(1), 최악의 경우 O(n)이지만 내부 최적화로 O(1)로 간주
-\[^3\]: 이 경우 역시도 시간복잡도는 $O(L^2 \\cdot n \\cdot k)$ 로 동일하다
+[^1]: 이전 PatternCount(text, pattern)에서 입력 text가 substring이 되므로, O(Lk)가 됨
+
+[^2]: python에서 집합은 hash 구조로 이루어져 있으며, 평균적으로 O(1), 최악의 경우 O(n)이지만 내부 최적화로 O(1)로 간주
+
+[^3]: 이 경우 역시도 시간복잡도는 $O(L^2 \\cdot n \\cdot k)$ 로 동일하다
