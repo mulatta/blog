@@ -30,10 +30,10 @@ math: true
 이렇게 k-mer pattern을 임의로 정한 뒤, 주어진 입력 Text에서 얼마나 등장하는지 그 횟수를 count 할 수 있다.
 가장 간단한 방법으로, 다음과 같이 모든 각 문자열을 시작점으로 하는 k-mer와 비교할 수 있다.
 
-![index가 0일 때 주어진 text에서 pattern(ACTA)찾기](/images/countPattern1.png)
+![index가 0일 때 주어진 text에서 pattern(ACTA)찾기](countPattern1.png)
 *Fig 1. index가 0일 때 주어진 text에서 pattern(ACTA)찾기*
 
-![index가 1일 때 주어진 text에서 pattern(ACTA)찾기](/images/countPattern2.png)
+![index가 1일 때 주어진 text에서 pattern(ACTA)찾기](countPattern2.png)
 *Fig 2. index가 1일 때 주어진 text에서 pattern(ACTA)찾기*
 
 ## Problem

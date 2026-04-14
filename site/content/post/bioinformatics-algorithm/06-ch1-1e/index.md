@@ -34,7 +34,7 @@ $$\\text{where i≥0 and i+L ≤ length of genome}$$
 
 $$ \\text{K for k-mer patterns,}; \\text{f for function to find clumps}$$
 
-![Idea to calculate and find the clumps in genome](/images/findClumps.png)
+![Idea to calculate and find the clumps in genome](findClumps.png)
 *Idea to calculate and find the clumps in genome*
 
 ## Problem
@@ -140,7 +140,7 @@ def myFindClumps(genome, k, L, t):
 - 이에 대한 논의는 추후 충전소 - 빈도 배열을 통해 해결할 수 있다.
 - 한편, PatternCount 대신 window loop에 FrequentWords를 사용함으로써 더 간단하게 구현할 수 있다.[^3]
 
-![Redundancy in Brute-Force Algorithm to find clumps](/images/redundancy%20in%20findClumps.png)
+![Redundancy in Brute-Force Algorithm to find clumps](redundancy-in-findclumps.png)
 *Redundancy in Brute-Force Algorithm to find clumps*
 
 ## Reference

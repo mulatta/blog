@@ -42,7 +42,7 @@ tags:
 
 앞서 설명한 바와 같이, 유전체는 복제가 시작되기 위해 이중 나선을 풀어주는 과정이 필요하다. 따라서, *ori*라는 영역에는 이중 나선을 풀어주는 단백질이 결합하는 DNA 영역이 존재한다. 이 과정에 관여하는 단백질과 DNA 서열 쌍을 DnaA protein - DnaA box(sequence)라 한다.
 
-![DnaA box binding mechanism](/images/image-20240212122941820.png)
+![DnaA box binding mechanism](dnaa-box-binding.png)
 *Fig 1. DnaA box binding mechanism*
 
 이러한 DnaA box - DnaA protein의 mechanism을 다음과 같이 간략히 정리할 수 있다.

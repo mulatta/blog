@@ -23,10 +23,10 @@ Brute-Force를 통해 알고리즘을 수행하면, 이전에 구현한 PatternC
 1. 문자열의 모든 문자 하나하나를 시작점으로 하는 k-mer pattern 에 대해
 1. 주어진 입력 문자 text를 PatternCount로 count
 
-![index가 0일 때 pattern count](/images/FrequentWords1.png)
+![index가 0일 때 pattern count](FrequentWords1.png)
 *Fig 1. index가 0일 때 pattern count*
 
-![index가 1일 때 pattern count](/images/FrequentWords2.png)
+![index가 1일 때 pattern count](FrequentWords2.png)
 *Fig 2. index가 1일 때 pattern count*
 
 ## Problem
