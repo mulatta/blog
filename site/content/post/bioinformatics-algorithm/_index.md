@@ -1,29 +1,29 @@
 ---
-title: Bioinformatics Algorithm - Table of Contents
+title: Bioinformatics Algorithms
 date: 2024-01-29
 categories:
   - Bioinformatics
 tags:
   - Book Notes
   - Compeau & Pevzner
-  - Table of Contents
 ---
 
-# 목차
+Compeau & Pevzner의 *Bioinformatics Algorithms: An Active Learning
+Approach* 정리 노트.
 
 ## Chapter 1. DNA 복제는 유전체의 어디서부터 시작되는가?
 
 ### 서론
 
-- [Introduction](../01-ch1-intro)
+- [Introduction](01-ch1-intro/)
 
 ### 본문
 
-- [1A 단어 세기](../02-ch1-1a)
-- [1B 빈번한 단어 문제](../03-ch1-1b)
-- [1C 역상보 문제](../04-ch1-1c)
-- [1D 패턴 일치 문제](../05-ch1-1d)
-- [1E 군집 찾기 문제](../06-ch1-1e)
+- [1A 단어 세기](02-ch1-1a/)
+- [1B 빈번한 단어 문제](03-ch1-1b/)
+- [1C 역상보 문제](04-ch1-1c/)
+- [1D 패턴 일치 문제](05-ch1-1d/)
+- [1E 군집 찾기 문제](06-ch1-1e/)
 - 최소 비대칭 문제
 - 해밍 거리 문제
 - 대략적인 패턴 일치 문제
