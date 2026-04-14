@@ -7,7 +7,12 @@ theme = "stack"
 mainSections = ["post"]
 featuredImageField = "image"
 rssFullContent = true
-favicon = ""
+favicon = "/favicon.ico"
+
+[params.defaultImage.opengraph]
+enabled = true
+local = true
+src = "img/og-default.png"
 
 [params.footer]
 since = 2025
@@ -22,7 +27,7 @@ subtitle = ""
 [params.sidebar.avatar]
 enabled = true
 local = true
-src = "img/avatar.png"
+src = "img/avatar.jpg"
 
 [params.article]
 math = false
